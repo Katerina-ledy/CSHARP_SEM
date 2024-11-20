@@ -15,7 +15,7 @@ int CountVowels(string str)
     {
         for (int j = 0; j < vowels.Length; j++)
         {
-            if (vowels[j] == str[i])
+            if (str[i] == vowels[j])
             {
                 count++;
             }
