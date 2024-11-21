@@ -20,7 +20,11 @@ int number = Convert.ToInt32(Console.ReadLine());
 PrintNaturalNumbers(number);
 
 
+// int Factorial(int n)
+// {
+//     if(n == 1) return 1;
+//     return n * Factorial(n-1);
+// }
 
-
-
+// Console.WriteLine(Factorial(5)); // 120
 
