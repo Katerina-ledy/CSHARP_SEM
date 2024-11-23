@@ -16,4 +16,12 @@ string[] startArray = new string[] { "Hello", "2", "world", ":-)" };
 // Массив вводится с клавиатуры
 // string[] startArray = InputArray();
 
-
+// Подсчитываем длину нового массива
+int newArrayLength = 0;
+for (int i = 0; i < startArray.Length; i++)
+{
+    if (startArray[i].Length <= 3)
+    {
+        newArrayLength++;
+    }
+}
