@@ -40,4 +40,22 @@ for (int i = 0; i < startArray.Length; i++)
     }
 }
 
+// Метод для ввода массива строк
+static string[] InputArray()
+{
+    Console.WriteLine("Введите количество строк в массиве:");
+    int n = int.Parse(Console.ReadLine());
+
+    string[] array = new string[n];
+        
+    for (int i = 0; i < n; i++)
+    {
+        Console.WriteLine($"Введите строку [{i + 1}]:");
+        array[i] = Console.ReadLine();
+    }
+    return array;
+}
+
+// Выводим результат
+Console.WriteLine("Результат: [" + string.Join(", ", strArray) + "]");
 
