@@ -53,6 +53,7 @@ static string[] InputArray()
     return array;
 }
 
-
+// Выводим результат
+Console.WriteLine("Результат: [" + string.Join(", ", strArray) + "]");
 
 
