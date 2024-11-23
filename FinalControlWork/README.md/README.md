@@ -25,3 +25,19 @@ for (int i = 0; i < startArray.Length; i++)
         newArrayLength++;
     }
 }
+
+// Создаем новый массив нужного размера
+string[] strArray = new string[newArrayLength];
+int index = 0;
+
+// Заполняем новый массив строками
+for (int i = 0; i < startArray.Length; i++)
+{
+    if (startArray[i].Length <= 3)
+    {
+        strArray[index] = startArray[i];
+        index++;
+    }
+}
+
+
