@@ -10,6 +10,10 @@
 // [“Russia”, “Denmark”, “Kazan”] → []
 
 
+// Задаем начальный массив по умолчанию
+string[] startArray = new string[] { "Hello", "2", "world", ":-)" };
 
+// Массив вводится с клавиатуры
+// string[] startArray = InputArray();
 
 
